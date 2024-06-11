@@ -4,9 +4,9 @@ const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
     {
-      name: "JQuery",
+      name: ".Net",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fa-brands fa-js",
+      icon: "fa-brands fa-microsoft",
     },
     {
       name: "Laravel",
@@ -14,15 +14,16 @@ const Services = ({ classicHeader, darkTheme }) => {
       icon: "fa-brands fa-laravel",
     },
     {
-      name: ".Net",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fa-brands fa-microsoft",
-    },
-    {
       name: "Angular",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
       icon: "fa-brands fa-angular",
     },
+    {
+      name: "JQuery",
+      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      icon: "fa-brands fa-js",
+    },
+
     {
       name: "HTML",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
