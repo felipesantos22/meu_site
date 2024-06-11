@@ -1,5 +1,4 @@
 import React from "react";
-import resumeFile from "../documents/resume.pdf";
 const AboutUs = ({ classicHeader, darkTheme }) => {
   return (
     <section id="about" className={"section " + (darkTheme ? "bg-dark-1" : "")}>
@@ -73,7 +72,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 </li>
               </ul>
               <a
-                href={resumeFile}
+                href=""
                 download
                 className="btn btn-primary rounded-pill"
               >
@@ -132,7 +131,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   <span>650</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Projects Done
+                  Projetos no GitHub
                 </p>
               </div>
             </div>

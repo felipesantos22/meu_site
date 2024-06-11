@@ -1,5 +1,4 @@
 import React from "react";
-import resumeFile from "../documents/resume.pdf";
 
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
@@ -46,20 +45,20 @@ const Resume = ({ classicHeader, darkTheme }) => {
 
   const skills = [
     {
-      name: "Web Design",
+      name: "JQuery",
       percent: 65,
     },
     {
-      name: "HTML/CSS",
-      percent: 95,
-    },
-    {
-      name: "JavaScript",
+      name: "HTML/CSS/JS",
       percent: 80,
     },
     {
-      name: "React JS",
+      name: ".Net",
       percent: 70,
+    },
+    {
+      name: "Laravel",
+      percent: 90,
     },
     {
       name: "Angular Js",
@@ -67,7 +66,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "Bootstrap",
-      percent: 99,
+      percent: 80,
     },
   ];
 
@@ -208,7 +207,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
         <div className="text-center mt-5">
           <a
             className="btn btn-outline-secondary rounded-pill shadow-none"
-            href={resumeFile}
+            href=""
             download
           >
             Download CV
