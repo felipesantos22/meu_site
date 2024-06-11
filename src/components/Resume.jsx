@@ -4,43 +4,43 @@ const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
       yearRange: "2001 - 2024",
-      title: "Engenharia de Software",
-      place: "Universidade Cidade De São Paulo",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      title: "Universidade Cidade De São Paulo",
+      place: "engenharia de Software",
+      desc: "Curso focado 60% em projetos praticos, normalmente JQuery e .Net .",
     },
     {
-      yearRange: "2005 - 2008",
-      title: "Bachelor Degree",
-      place: "University of California",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2022 - 2023",
+      title: "Trybe",
+      place: "Desenvolvedor Web",
+      desc: "Curso focado 100% em projetos praticos, tanto Frontend com React JS, quanto no Backend .Net .",
     },
     {
-      yearRange: "2009 - 2012",
-      title: "Master Degree",
-      place: "Harvard University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2021 - 2024",
+      title: "Desenvolvimento Web",
+      place: "Alura",
+      desc: "Uso a plataforma para me aperfeiçoar em diversas tanto em Laravel quanto em .Net .",
     },
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2012 - 2013",
-      title: "Jr. UI UX Designer",
-      place: "Themeforest",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2019 - Atual",
+      title: "Desenvolvedor Web",
+      place: "Freelancer",
+      desc: "Desenvolvimento de projetos como este site focado em HTML, CSS e JS, quanto em projetos em PHP.",
     },
-    {
-      yearRange: "2014 - 2016",
-      title: "Jr. Product Designer",
-      place: "Dribbble",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    },
-    {
-      yearRange: "2017 - 2019",
-      title: "Product Designer",
-      place: "Adobe",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    },
+    // {
+    //   yearRange: "2014 - 2016",
+    //   title: "Jr. Product Designer",
+    //   place: "Dribbble",
+    //   desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+    // },
+    // {
+    //   yearRange: "2017 - 2019",
+    //   title: "Product Designer",
+    //   place: "Adobe",
+    //   desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+    // },
   ];
 
   const skills = [
@@ -84,7 +84,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
               (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
             }
           >
-            Summary
+            Sumário
           </h2>
           <p
             className={
@@ -93,7 +93,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
             }
           >
             {" "}
-            Resume
+            Resumo
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>
@@ -106,7 +106,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
                 "text-6 fw-600 mb-4 " + (darkTheme ? "text-white" : "")
               }
             >
-              My Education
+              Cursos
             </h2>
             {educationDetails.length > 0 &&
               educationDetails.map((value, index) => (
@@ -139,7 +139,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
                 "text-6 fw-600 mb-4 " + (darkTheme ? "text-white" : "")
               }
             >
-              My Experience
+              Experiência
             </h2>
             {experienceDetails.length > 0 &&
               experienceDetails.map((value, index) => (
@@ -172,7 +172,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
             "text-6 fw-600 mt-4 mb-4 " + (darkTheme ? "text-white" : "")
           }
         >
-          My Skills
+          Hard Skills
         </h2>
         <div className="row gx-5">
           {skills.length > 0 &&
