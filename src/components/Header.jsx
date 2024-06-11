@@ -112,7 +112,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   Resumo
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   className="nav-link "
                   smooth
@@ -128,7 +128,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                 >
                   Portfólio
                 </Link>
-              </li>
+              </li> */}
               {/* <li className="nav-item">
                 <Link
                   className="nav-link "
