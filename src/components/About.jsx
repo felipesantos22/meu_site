@@ -11,7 +11,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
             }
           >
-            About Me
+            Quem Sou
           </h2>
           <p
             className={
@@ -19,7 +19,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               (darkTheme ? "text-white" : "text-dark")
             }
           >
-            Know Me More
+            Conheça me mais
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>
@@ -32,19 +32,23 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              <span className="text-primary">Felipe Santos,</span> Desenvolvedor Web
+              <span className="text-primary">Felipe Santos,</span> Desenvolvedor
+              Web
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I help you build brand for your business at an affordable price.
-              Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+              Profissional com experiência em desenvolvimento de
+              software utilizando diversas tecnologias. Habilidades em
+              frameworks como Laravel, .NET, Angular e jQuery, com capacidade
+              comprovada de entrega de soluções eficientes para atender às
+              necessidades do cliente. Forte capacidade de aprendizado e
+              adaptação a novas tecnologias, além de excelentes habilidades de
+              resolução de problemas e trabalho em equipe.
             </p>
-            <p className={darkTheme ? "text-white-50" : ""}>
+            {/* <p className={darkTheme ? "text-white-50" : ""}>
               Delivering work within time and budget which meets client’s
               requirements is our moto. Lorem Ipsum has been the industry's
               standard dummy text ever when an unknown printer took a galley.
-            </p>
+            </p> */}
           </div>
           {/* About me content end */}
           {/* about me personal detials start */}
@@ -67,15 +71,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   <span className="fw-600 me-2">Idade:</span>33
                 </li>
                 <li className="border-0">
-                  <span className="fw-600 me-2">Cidade:</span>São Paulo,
-                  SP
+                  <span className="fw-600 me-2">Cidade:</span>São Paulo, SP
                 </li>
               </ul>
-              <a
-                href=""
-                download
-                className="btn btn-primary rounded-pill"
-              >
+              <a href="" download className="btn btn-primary rounded-pill">
                 Download CV
               </a>
             </div>
@@ -113,10 +112,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>250</span>+
+                  <span>10</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Happy Clients
+                  Projetos Profissionais
                 </p>
               </div>
             </div>
@@ -128,7 +127,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>650</span>+
+                  <span>70</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Projetos no GitHub
