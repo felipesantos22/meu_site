@@ -4,34 +4,34 @@ const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
     {
-      name: "Graphic Design",
+      name: "JQuery",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-palette",
+      icon: "fa-brands fa-js",
     },
     {
-      name: "Web Design",
+      name: "Laravel",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-desktop",
+      icon: "fa-brands fa-laravel",
     },
     {
-      name: "UI/UX Design",
+      name: ".Net",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-pencil-ruler",
+      icon: "fa-brands fa-microsoft",
     },
     {
-      name: "App Design & Develop",
+      name: "Angular",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-paint-brush",
+      icon: "fa-brands fa-angular",
     },
     {
-      name: "Business Analysis",
+      name: "HTML",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-chart-area",
+      icon: "fa-brands fa-html5",
     },
     {
-      name: "SEO Marketing",
+      name: "CSS",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-bullhorn",
+      icon: "fa-brands fa-css3",
     },
   ];
 
@@ -57,7 +57,7 @@ const Services = ({ classicHeader, darkTheme }) => {
               (darkTheme ? "text-white" : "text-dark")
             }
           >
-            What I Do?
+            O que eu faço ?
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>
