@@ -75,7 +75,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
             }
           >
             {" "}
-            Get in Touch
+            Entre em Contato
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>
@@ -191,7 +191,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 (darkTheme ? "text-white" : "")
               }
             >
-              Send us a note
+              Envie uma mensagem
             </h2>
             <form
               className={darkTheme ? "form-dark" : ""}
@@ -226,7 +226,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     className="form-control"
                     rows={5}
                     required
-                    placeholder="Tell us more about your needs........"
+                    placeholder="Me conte sobre suas necessidades........"
                     defaultValue={""}
                   />
                 </div>
@@ -244,10 +244,10 @@ const Contact = ({ classicHeader, darkTheme }) => {
                         aria-hidden="true"
                         class="spinner-border spinner-border-sm align-self-center me-2"
                       ></span>
-                      Sending.....
+                      Enviando.....
                     </>
                   ) : (
-                    <>Send Message</>
+                    <>Enviar Mensagem</>
                   )}
                 </button>
               </p>
