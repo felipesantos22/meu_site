@@ -5,33 +5,33 @@ const Services = ({ classicHeader, darkTheme }) => {
   const services = [
     {
       name: ".Net",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "Desenvolvimento de APIs com .NET: implementação de endpoints RESTful usando ASP.NET Core, acesso a dados com Entity Framework e Dapper, autenticação e validação de dados robustas.",
       icon: "fa-brands fa-microsoft",
     },
     {
       name: "Laravel",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "Desenvolvimento de APIs com Laravel: criação de endpoints RESTful, gerenciamento de dados com Eloquent ORM, autenticação e validação de dados robustas para garantir segurança e integridade.",
       icon: "fa-brands fa-laravel",
     },
     {
       name: "Angular",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "Desenvolvimento front-end com Angular: criação de aplicações web dinâmicas, integração com APIs RESTful, gerenciamento de estado com NgRx, e implementação de autenticação e validação de formulários.",
       icon: "fa-brands fa-angular",
     },
     {
       name: "JQuery",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "Desenvolvimento front-end com jQuery: criação de interfaces web interativas, manipulação dinâmica do DOM, integração com APIs RESTful e validação de formulários.",
       icon: "fa-brands fa-js",
     },
 
     {
       name: "HTML",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "Desenvolvimento web com HTML: criação de estruturas semânticas de páginas, implementação de interfaces de usuário acessíveis e integração com CSS e JavaScript para sites interativos.",
       icon: "fa-brands fa-html5",
     },
     {
       name: "CSS",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "Desenvolvimento web com CSS: estilização de páginas HTML, criação de layouts responsivos, e implementação de designs visuais consistentes e acessíveis.",
       icon: "fa-brands fa-css3",
     },
   ];
