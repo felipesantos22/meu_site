@@ -134,7 +134,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 </p>
               </div>
             </div>
-            <div className="col-6 col-md-3">
+            {/* <div className="col-6 col-md-3">
               <div className="featured-box text-center">
                 <h4
                   className={
@@ -148,7 +148,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   Get Awards
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* projects rewards counting end */}
