@@ -45,27 +45,27 @@ const Resume = ({ classicHeader, darkTheme }) => {
 
   const skills = [
     {
-      name: "JQuery",
+      name: ".Net",
       percent: 65,
     },
     {
-      name: "HTML/CSS/JS",
+      name: "Laravel",
       percent: 80,
     },
     {
-      name: ".Net",
+      name: "Angular",
       percent: 70,
     },
     {
-      name: "Laravel",
+      name: "JQuery",
       percent: 90,
     },
     {
-      name: "Angular Js",
-      percent: 60,
+      name: "HTML",
+      percent: 100,
     },
     {
-      name: "Bootstrap",
+      name: "CSS",
       percent: 80,
     },
   ];
